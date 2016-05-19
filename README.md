@@ -1,5 +1,5 @@
 ## Gulp Task Builder
----
+
 [![Version][version-svg]][package-url] [![Build Status][travis-svg]][travis-url] [![License][license-image]][license-url]  [![Downloads][downloads-image]][downloads-url]
 [version-svg]: https://img.shields.io/npm/v/gulp-task-builder.svg?style=flat-square
 [package-url]: https://npmjs.org/package/gulp-task-builder
@@ -17,6 +17,7 @@ Node module task builder which can be configured by a JSON Object containing the
 
 
 ## Table of Contents
+
 **Getting Started **
 
 1.[setup]()
