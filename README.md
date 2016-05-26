@@ -62,7 +62,7 @@ Compress your files with the ``compress`` option.This function is using [gulp-ug
 ```
 for more ``css`` options [Click here]().
 
-## Concatenate
+### Concatenate
 
 Concatenate (join) your files with the ``concat`` here.
 
@@ -74,7 +74,7 @@ task1:{src:"./src/*.js", ext:".js", dest:"dest", concat:true}
 task1:{src:"./src/*.js", ext:".js", dest:"dest", concat:true, name:"jsbundle"}
 ```
 
-## Filter
+### Filter
 Filter your source files with the ``filter`` option.
 
 ```sh
@@ -85,7 +85,7 @@ Filter your source files with the ``filter`` option.
 ```
 restore and pass through will come very soon.
 
-## Rename
+### Rename
 Rename your destination file or path.You can provide **String | Function | Object **
 ```sh
 {src:"./src/*.js", ext:".js", dest:"dest", rename:"main/text/ciao/goodbye.md"}
@@ -93,14 +93,14 @@ Rename your destination file or path.You can provide **String | Function | Objec
 {src:"./src/*.js", ext:".js", dest:"dest", rename:{dirname: "main/text/ciao", basename: "aloha", prefix: "bonjour-", suffix: "-hola", extname: ".md"}}
 ```
 
-## Wrapper
+### Wrapper
 Wrap your files or target files with the given header and footers ** Object | Array **.
 
 ```sh
 {src:"./src/*.js", ext:".js", dest:"dest", wrapper:{header:"this will be header", footer:"this will be footer"}}
 {src:"./src/*.js", ext:".js", dest:"dest", wrapper:[{header:"header1", footer:"footer1"}{header:"headerN", footer:"footerN"}]}
 ```
-## Log Contents
+### Log Contents
 You can also log paths contents and other stream options.In case set to true the default value will be ``contents``.
 ```sh
 {src:"./src/*.js", ext:".js", dest:"dest", log:true}
@@ -108,10 +108,7 @@ You can also log paths contents and other stream options.In case set to true the
 {src:"./src/*.js", ext:".js", dest:"dest", preLog:'path'}// Console Paths
 ```
 
-## Disable Save
-You can also disbale the save option by setting ``save:false``.
 
-```sh
-{src:"./src/*.js", ext:".js", dest:"dest", save:false}
-```
+
+
 
