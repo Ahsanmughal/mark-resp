@@ -122,7 +122,7 @@ Each Task contains **Required** options which can be passed along with **optiona
 
 #### Required Options
 
--**src** (string) Gulp [src]() parameter.Path of your source files.It can also be regEx.[More Details]().
+- **src** (string) Gulp [src]() parameter.Path of your source files.It can also be regEx.[More Details]().
 
 
 
