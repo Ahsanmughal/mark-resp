@@ -64,9 +64,9 @@ Note that **feature requests must target** [Bootstrap v4](), because Bootstrap v
 Bootstrap Documentation, included in this repo in the root directory, is built with [jekyll]() and publically hosted on Github pages at [http://getbootstrap.com].The docs may also be run locally.
 
 #### Runing Documentation locally
--1. if necessary ,[install jekyll] and other ruby dependencies with ``bundle install``.Note for Windows users.Read this [unofficial guide]() to get jekyllup and runing without problems.
--2. From the root ``/bootstrap`` directory , run ``bundle exec jekyll serve`` in the command line.
--3. Open ``http://localhost:9001`` in your browser and volia.
+1. if necessary ,[install jekyll] and other ruby dependencies with ``bundle install``.Note for Windows users.Read this [unofficial guide]() to get jekyllup and runing without problems.
+2. From the root ``/bootstrap`` directory , run ``bundle exec jekyll serve`` in the command line.
+3. Open ``http://localhost:9001`` in your browser and volia.
 
 Learn more about using jekyll by reading its documentation.
 
