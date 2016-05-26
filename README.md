@@ -113,5 +113,16 @@ You can also disable the save option by setting `save:false`
 {src:"./src/*.js", ext:".js", dest:"dest", save:false}
 ```
 
+Task Options
+-------------
+
+Each Task contains **Required** options which can be passed along with **optionals** (Flow Contorl , Plugins, Log options)
+
+### Required
+
+#### Required Options
+
+-**src** (string) Gulp [src]() parameter.Path of your source files.It can also be regEx.[More Details]().
+
 
 
