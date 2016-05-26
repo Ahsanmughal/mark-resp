@@ -124,6 +124,18 @@ Each Task contains **Required** options which can be passed along with **optiona
 
 - **src** (string) Gulp [src]() parameter.Path of your source files.It can also be regEx.[More Details]().
 - **dest** (string) Gulp [dest]() parameter.Path where you want to save your files.[More Details]().
-- **ext** (string) extension of file which is defined in ``src`` option. 
+- **ext** (string) extension of file which is defined in ``src`` option.
+
+### Optionals
+
+#### Flow Control
+
+- **runBefore** (string | Array(string)) Define Task dependincies which will run before this task.
+- **Save** (bool) set ``true``.If you want to save your output.Default ``True``.
+- **name** string **recomended**.Define Unique name of gulp task.
+
+#### Plugins
+
+- **filter** (Object|string|array|function) To filter your files. if you are sending Object then that object should have two properties [match]() and options. See [gulp-filter]() for more details.
 
 
