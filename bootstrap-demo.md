@@ -68,6 +68,27 @@ Bootstrap Documentation, included in this repo in the root directory, is built w
 2. From the root ``/bootstrap`` directory , run ``bundle exec jekyll serve`` in the command line.
 3. Open ``http://localhost:9001`` in your browser and volia.
 
-Learn more about using jekyll by reading its documentation.
+Learn more about using jekyll by reading its [documentation]().
+
+### Documentation for previous release.
+
+Documentation for V2.3.2 has been made available for the time being at  [http://getbootstrap.com/2.3.2]() while folks transition to Bootstrap 3.
+
+[previous release]() and their documentation are also avaliable for download.
+
+### Contributing
+
+Please read through our [contributon guidelines]().Included are directions for opening issues , coding standards and notes on development.
+
+Moreover if your pull request contains javascript patches or features, you must include [relevant unit test]().All HTML and CSS should confirm to the [code Guide](), maintained by [mark otto]().
+
+**Bootstrap v3 is now closed off to new features**. It has gone into maintenance mode so that we can focus our efforts on [Bootstrap v4](), the future of the framework. Pull requests which add new features (rather than fix bugs) should target [Bootstrap v4 (the v4-dev git branch)]() instead.
+
+Editor preferences are available in the [editor config]() for easy use in common text editors. Read more and download plugins at [http://editorconfig.org.]()
+
+
+### Copyright and License
+
+Code and documentation copyright 2011-2016 Twitter, Inc. Code released under [the MIT license](). Docs released under [Creative Commons]().
 
 
