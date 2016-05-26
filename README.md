@@ -107,8 +107,11 @@ You can also log paths contents and other stream options.In case set to true the
 {src:"./src/*.js", ext:".js", dest:"dest", preLog:true}
 {src:"./src/*.js", ext:".js", dest:"dest", preLog:'path'}// Console Paths
 ```
-
-
+### Disable save
+You can also disable the save option by setting `save:false`
+```sh
+{src:"./src/*.js", ext:".js", dest:"dest", save:false}
+```
 
 
 
