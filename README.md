@@ -137,5 +137,22 @@ Each Task contains **Required** options which can be passed along with **optiona
 #### Plugins
 
 - **filter** (Object|string|array|function) To filter your files. if you are sending Object then that object should have two properties [match]() and options. See [gulp-filter]() for more details.
+- **concat** (string|object) object contains two properties name and ext. See [gulp-concat]() for more details.
+- **replace** (object|array(objects)) Object can be one of these two objects ``{target:"", src:""}`` this will send to [gulp-replace]() and second ``{buildName:replacement}`` buildName (string|RegExp) replacement (String|Array|Object).
+- **debug**(bool) Enable [gulp-plumber]()
+- **compress** (bool | object) this will use [gulp-uglify]() if ``ext`` is ``.js`` [gulp-htmlmin]() and [gulp-clean-css]() if ``css`` is ``.css``.
+- **wrapper** (object | Array) Each object has two options header and footer.[More Details]().
+- **rename** (string | object | function) you can edit the name or edit the path of your destination file.[More Details]().
+ 
+#### Log Options
+- **log** (string | bool) log/console content of stream.All options of [gulp-stream]() are supported.Default value is ``contents``.
+- **PreLog** (bool) console stream before processing.same as ``log`` above.
+- **postLog** (bool) console stream just before save ``(gulp.dest)`` function stream.same as ``log`` above.
+- **get** (function) just in case if you want to get stream.Note it will not effect the stream.
+
+License
+------------
+**MIT**
+
 
 
